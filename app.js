@@ -54,7 +54,7 @@ async function logout() {
     return new Promise((resolve, reject) => resolve(res.body));
 }
 
-(async function main() {
+(async function() {
     const h = await health();
     if (debug) console.log(h);
     console.log(`Status: ${h.platform.status}`);
