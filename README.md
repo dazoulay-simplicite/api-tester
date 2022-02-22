@@ -4,7 +4,7 @@
 API tester
 ==========
 
-Simplicit&eacute;&reg; REST APIs tester.
+Simplicit&eacute;&reg; REST APIs tester based on the [Unirest](https://www.npmjs.com/package/unirest) lib.
 
 Install
 -------
