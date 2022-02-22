@@ -70,7 +70,7 @@ async function logout() {
     if (debug) console.log(res);
     console.log(`Version: ${res[0].sys_value}`);
 
-    res = await create('TEST', 'Test');
+    res = await create('TEST-' + new Date().getTime(), 'Test');
     if (debug) console.log(res);
     console.log(`Created: ${res.sys_code} = ${res.sys_value}`);
     const id = res.row_id;
