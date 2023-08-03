@@ -1,7 +1,7 @@
 {
   "name": "api-tester",
   "description": "API tester",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Simplicite Software <contact@simplicitesoftware.com> (http://www.simplicitesoftware.com/)",
   "license": "Apache-2.0",
   "repository": {
@@ -12,8 +12,8 @@
     "unirest": "^0.6.0"
   },
   "devDependencies": {
-    "eslint": "^8.22.0",
-    "npm-check-updates": "^16.0.5"
+    "eslint": "^8.46.0",
+    "npm-check-updates": "^16.10.17"
   },
   "scripts": {
     "lint": "eslint src/**.js && stylelint src/**.less",
